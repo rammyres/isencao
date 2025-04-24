@@ -5,7 +5,7 @@ import tempfile
 import os
 
 st.title("Gerador de Declaração de Isenção de IRRF")
-st.beta_set_page_config(page_title='Gerador de Declaração de Isenção de IRRF')
+st.set_page_config(page_title='Gerador de Declaração de Isenção de IRRF')
 
 with st.form("formulario"):
     nome = st.text_input("Nome")
