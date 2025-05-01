@@ -4,6 +4,7 @@ from num2words import num2words
 import tempfile
 import os
 
+
 st.set_page_config(page_title='Gerador de Declaração de Isenção')
 st.title("Gerador de Declaração de Isenção de IRPF para precatórios e RPV federais")
 
